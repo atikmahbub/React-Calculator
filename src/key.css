@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+*{
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+#body{
+	display: flex;
+	width: 400px;
+	flex-wrap: wrap;
+}
+#right-panel{
+	display: flex;
+	width:100px;
+	flex-direction: column;
+
+
+}
+#right-panel button{
+	
+  background-color: #36678e;	
+  width: 100%;
+  outline: none;
+  border: none;
+   color: #fcb045;
+  font-size: 24px;
+  height: 66px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+#right-panel button:last-child {
+  height: 70px;
+}
+
+#number{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+}
+#number button{
+	font-weight: bold;
+	height: 100px;
+	width: 100px;
+	background-color: #2d4f6a;
+	 color: #fcb045;
+	outline: none;
+	border: none;
+  	font-size: 32px;
+  	 font-family: "Orbitron", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+
+#number button:active,
+#number button:hover,
+#right-panel button:active,
+#right-panel button:hover {
+	
+	background: #093b56;
+}

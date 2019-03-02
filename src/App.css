@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+
+
+
+}
+#calculator{
+  background-image: linear-gradient(to left, #4a57ac, #705ebb, #9563c6, #ba68cf, #de6cd4);
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#full{
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+  margin: 2% auto;
+  flex-direction: row;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+}
+
+.equation{
+  height:65px;
+  width: 100%;
+  background-color: #fff;
+  text-align: right;
+  color: yellow;
+  background-color: #3f4853;
+  font-family: 'Orbitron', sans-serif;
+  word-break: break-word;
+  padding-right: 10px;
+  padding-top: 12px;
+  font-size: 1.3rem;
+  
+  
+}
+.result { 
+  height: 100px;
+
+  background-color: #fff;
+  text-align: right;
+  font-family: 'Orbitron', sans-serif;
+  word-break: break-word;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: yellow;
+  background-color: #3f4853;
+  padding-right: 10px;
+  padding-top: 12px;
+ }
+
+ #break{
+  width: 100%;
+  height: 10px;
+  background: #2f2f30;
+ }
+
+ #head{
+
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.5rem;
+  color: #d7dce2;
+  font-weight: 800px;
+ }
